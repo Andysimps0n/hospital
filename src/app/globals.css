@@ -113,9 +113,9 @@ h3 {
 
 
 .timetable-wrapper {
-  width: 50%;
+  width: 40%;
   margin: 0 auto 1rem;
-  padding : 1% 1%;
+  padding : 1% 0%;
 
 
   border-bottom: 1px dotted rgb(34, 34, 34);
@@ -124,12 +124,18 @@ h3 {
   flex-direction: row;
   justify-content: space-between;
   align-items: end;
+
 }
 
 
 .time-info-wrapper {
-  width: 50%;
+  width: 40%;
 }
+
+.date-bold {
+  background-color: rgba(12, 158, 168, 0.3)
+}
+
 
 @media (max-width: 768px) {
   .header-wrapper ul:nth-child(n+2) {
